@@ -286,3 +286,31 @@ img::-moz-selection {
   color: #f35353 !important;
 }
 
+.buttonOne{
+ 
+  background-size: contain;
+  cursor: pointer;
+  height: 200px;
+  width: 200px; 
+  margin-right: 30px;
+  
+
+}
+.buttonTwo{
+
+  background-size: contain;
+  cursor: pointer;
+  height: 170px;
+  width: 170px;
+  padding-bottom: 7px;
+  margin-left: 30px;
+   
+}
+
+.wrapper {
+  display: block;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
