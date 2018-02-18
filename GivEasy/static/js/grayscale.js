@@ -1,11 +1,17 @@
+var food = false;
+var clothes = false;
+
+
 (function($) {
   "use strict"; // Start of use strict
 
   $("#select-food").click(function(){
     $(this).find('img').toggle();
+    food = !food;
   });
   $("#select-clothes").click(function(){
     $(this).find('img').toggle();
+    clothes = !clothes;
   });
 
   // Smooth scrolling using jQuery easing
