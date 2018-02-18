@@ -1,6 +1,13 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  $("#select-food").click(function(){
+    $(this).find('img').toggle();
+  });
+  $("#select-clothes").click(function(){
+    $(this).find('img').toggle();
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
