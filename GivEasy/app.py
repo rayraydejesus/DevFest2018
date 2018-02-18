@@ -21,8 +21,11 @@ class location(db.Document):
   coord = db.StringField(required=True)
   lat = db.StringField(required=True)
   long = db.StringField(required=True)
-  name = db.StringField(required=True)
-  industry = db.StringField(required=True)
+  name = db.StringField()
+  drive = db.BooleanField(required=True)
+  food = db.BooleanField(required=True)
+  clothes = db.BooleanField(required=True)
+
   #poster = db.ReferenceField(User)
 
 if __name__ == '__main__':
